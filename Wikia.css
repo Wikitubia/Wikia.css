@@ -26,20 +26,20 @@ a[href$="Zianka"] {
 
 a[href$="JakCooperThePlumber"],
 a[href$="ChainsmokersFanatic1999"],
-a[href$="Flugmented"],
 a[href$="NameOfUser57"],
 a[href$="EdwardBloxy"],
-a[href$="ITurkishmapping"] {
+a[href$="ITurkishmapping"],
+a[href$="ThisIsACreeper0101"] {
     font-weight: bold !important;
     color: #B80000 !important;
 }
 
 .Wall .edited-by .subtle[href$="JakCooperThePlumber"]:after,
 .Wall .edited-by .subtle[href$="ChainsmokersFanatic1999"]:after,
-.Wall .edited-by .subtle[href$="Flugmented"]:after,
 .Wall .edited-by .subtle[href$="NameOfUser57"]:after,
 .Wall .edited-by .subtle[href$="EdwardBloxy"]:after,
-.Wall .edited-by .subtle[href$="ITurkishmapping"]:after {
+.Wall .edited-by .subtle[href$="ITurkishmapping"]:after,
+.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after {
     color: #B80000 !important;
     content: "admin" !important;
     font-size: 15px;
@@ -53,7 +53,9 @@ a[href$="CactorTheGasopod"],
 a[href$="Johncocek3"],
 a[href$="Cluckster"],
 a[href$="Sidemen19"],
-a[href$="ThisIsACreeper0101"] {
+a[href$="Grassblaze"],
+a[href$="Nintendofan885"],
+a[href$="Branca10177"] {
     color: #323299 !important;
     font-weight: bold !important;
 }
@@ -64,7 +66,9 @@ a[href$="ThisIsACreeper0101"] {
 .Wall .edited-by .subtle[href$="Johncocek3"]:after,
 .Wall .edited-by .subtle[href$="Cluckster"]:after,
 .Wall .edited-by .subtle[href$="Sidemen19"]:after,
-.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after {
+.Wall .edited-by .subtle[href$="Grassblaze"]:after,
+.Wall .edited-by .subtle[href$="Nintendofan885"]:after,
+.Wall .edited-by .subtle[href$="Branca10177"]:after {
     color: #323299 !important;
     content: "moderator" !important;
     font-size: 15px;
@@ -73,12 +77,11 @@ a[href$="ThisIsACreeper0101"] {
 }
 
 
-.Wall .edited-by .subtle[href$="Grassblaze"]:after,
 .Wall .edited-by .subtle[href$="Davidjl123"]:after, 
 .Wall .edited-by .subtle[href$="DomiTheGamer"]:after,
-.Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after,
-.Wall .edited-by .subtle[href$="Nintendofan885"]:after,
-.Wall .edited-by .subtle[href$="Branca10177"]:after {
+.Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after, 
+.Wall .edited-by .subtle[href$="Bendrownedfan111"]:after,
+.Wall .edited-by .subtle[href$="Yangyong08"]:after{
     color: Black !important;
     content: "rollbacker" !important;
     font-size: 15px;
@@ -86,13 +89,11 @@ a[href$="ThisIsACreeper0101"] {
     font-weight: normal;
 }
 
-a[href$="Grassblaze"],
 a[href$="Davidjl123"],
 a[href$="DomiTheGamer"],
-a[href$="ThisIsACreeper0101"],
 a[href$="The_Nameless_Lancer"],
-a[href$="Nintendofan885"],
-a[href$="Branca10177"] {
+a[href$="Bendrownedfan111"],
+a[href$="Yangyong08"]{
     font-weight: bold !important;
     
 }
@@ -1257,3 +1258,15 @@ transform: translate3d(4px, 0, 0);
 .tally span {
     font-family: rubik;
 }
+/* Disable commenting on Purple Shep */
+.page-Purple_Shep #WikiaArticleComments .MiniEditorWrapper,.page-Purple_Shep button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
+.page-Purple_Shep #WikiaArticleComments .article-comm-info {display: initial !important}
+.page-Purple_Shep #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
+/* Disable commenting on Pink Sheep */
+.page-PinkSheep #WikiaArticleComments .MiniEditorWrapper,.page-PinkSheep button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
+.page-PinkSheep #WikiaArticleComments .article-comm-info {display: initial !important}
+.page-PinkSheep #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
+/* Disable commenting on Failboat */
+.page-Failboat #WikiaArticleComments .MiniEditorWrapper,.page-Failboat button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
+.page-Failboat #WikiaArticleComments .article-comm-info {display: initial !important}
+.page-Failboat #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
