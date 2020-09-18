@@ -61,7 +61,6 @@ a[href$="Branca10177"] {
 }
 
 .Wall .edited-by .subtle[href$="D2Kvirus"]:after,
-.Wall .edited-by .subtle[href$="Reverb_frost"]:after,
 .Wall .edited-by .subtle[href$="CactorTheGasopod"]:after,
 .Wall .edited-by .subtle[href$="Johncocek3"]:after,
 .Wall .edited-by .subtle[href$="Cluckster"]:after,
@@ -70,7 +69,7 @@ a[href$="Branca10177"] {
 .Wall .edited-by .subtle[href$="Nintendofan885"]:after,
 .Wall .edited-by .subtle[href$="Branca10177"]:after {
     color: #323299 !important;
-    content: "moderator" !important;
+    content: "content moderator" !important;
     font-size: 15px;
     font-variant: small-caps;
     font-weight: normal;
@@ -81,7 +80,9 @@ a[href$="Branca10177"] {
 .Wall .edited-by .subtle[href$="DomiTheGamer"]:after,
 .Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after, 
 .Wall .edited-by .subtle[href$="Bendrownedfan111"]:after,
-.Wall .edited-by .subtle[href$="Yangyong08"]:after{
+.Wall .edited-by .subtle[href$="Yangyong08"]:after,
+.Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after,
+.Wall .edited-by .subtle[href$="BadBlitz808"]:after{
     color: Black !important;
     content: "rollbacker" !important;
     font-size: 15px;
@@ -93,7 +94,9 @@ a[href$="Davidjl123"],
 a[href$="DomiTheGamer"],
 a[href$="The_Nameless_Lancer"],
 a[href$="Bendrownedfan111"],
-a[href$="Yangyong08"]{
+a[href$="Yangyong08"],
+a[href$="Toasty_Dinosaur"],
+a[href$="BadBlitz808"]{
     font-weight: bold !important;
     
 }
@@ -115,6 +118,24 @@ a[href$="JustLeafy"]{
     font-variant: small-caps;
     font-weight: normal;
 }
+
+a[href$="Reverb_frost"],
+a[href$="Irregular_coca_cola"], 
+a[href$="BlindCartographer"] {
+    font-weight: bold !important;
+    color: #693299 !important;
+}
+
+.Wall .edited-by .subtle[href$="Reverb_frost"]:after,
+.Wall .edited-by .subtle[href$="Irregular_coca_cola"]:after,
+.Wall .edited-by .subtle[href$="BlindCartographer"]:after {
+    color: #693299 !important;
+    content: "discussions mod" !important;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
 
  .group-wrapper .mw-collapsed span {
   float:unset
