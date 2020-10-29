@@ -5,18 +5,19 @@
 @import "/load.php?mode=articles&articles=u:dev:MediaWiki:Button.css&only=styles";
 @import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedActivityFeed.css&only=styles";
 @import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomIcons.css&only=styles";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@460&display=swap');
 
 
 a[href$="Purzyckij"],
-a[href$="EpicNinjaDude37"], 
-a[href$="Zianka"] {
+a[href$="Zianka"],
+a[href$="ThisIsACreeper0101"] {
     font-weight: bold !important;
     color: #00E000 !important;
 }
 
 .Wall .edited-by .subtle[href$="Purzyckij"]:after,
-.Wall .edited-by .subtle[href$="EpicNinjaDude37"]:after,
-.Wall .edited-by .subtle[href$="Zianka"]:after {
+.Wall .edited-by .subtle[href$="Zianka"]:after,
+.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after {
     color: #00E000 !important;
     content: "bureaucrat" !important;
     font-size: 15px;
@@ -25,21 +26,19 @@ a[href$="Zianka"] {
 }
 
 a[href$="JakCooperThePlumber"],
-a[href$="ChainsmokersFanatic1999"],
 a[href$="NameOfUser57"],
 a[href$="EdwardBloxy"],
 a[href$="ITurkishmapping"],
-a[href$="ThisIsACreeper0101"] {
+a[href$="Sidemen19"] {
     font-weight: bold !important;
     color: #B80000 !important;
 }
 
 .Wall .edited-by .subtle[href$="JakCooperThePlumber"]:after,
-.Wall .edited-by .subtle[href$="ChainsmokersFanatic1999"]:after,
 .Wall .edited-by .subtle[href$="NameOfUser57"]:after,
 .Wall .edited-by .subtle[href$="EdwardBloxy"]:after,
 .Wall .edited-by .subtle[href$="ITurkishmapping"]:after,
-.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after {
+.Wall .edited-by .subtle[href$="Sidemen19"]:after{
     color: #B80000 !important;
     content: "admin" !important;
     font-size: 15px;
@@ -52,10 +51,10 @@ a[href$="Reverb_frost"],
 a[href$="CactorTheGasopod"],
 a[href$="Johncocek3"],
 a[href$="Cluckster"],
-a[href$="Sidemen19"],
 a[href$="Grassblaze"],
 a[href$="Nintendofan885"],
-a[href$="Branca10177"] {
+a[href$="Branca10177"],
+a[href$="BlindCartographer"] {
     color: #323299 !important;
     font-weight: bold !important;
 }
@@ -64,10 +63,10 @@ a[href$="Branca10177"] {
 .Wall .edited-by .subtle[href$="CactorTheGasopod"]:after,
 .Wall .edited-by .subtle[href$="Johncocek3"]:after,
 .Wall .edited-by .subtle[href$="Cluckster"]:after,
-.Wall .edited-by .subtle[href$="Sidemen19"]:after,
 .Wall .edited-by .subtle[href$="Grassblaze"]:after,
 .Wall .edited-by .subtle[href$="Nintendofan885"]:after,
-.Wall .edited-by .subtle[href$="Branca10177"]:after {
+.Wall .edited-by .subtle[href$="Branca10177"]:after,
+.Wall .edited-by .subtle[href$="BlindCartographer"]:after {
     color: #323299 !important;
     content: "content moderator" !important;
     font-size: 15px;
@@ -76,13 +75,12 @@ a[href$="Branca10177"] {
 }
 
 
-.Wall .edited-by .subtle[href$="Davidjl123"]:after, 
-.Wall .edited-by .subtle[href$="DomiTheGamer"]:after,
+.Wall .edited-by .subtle[href$="Davidjl123"]:after,
 .Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after, 
 .Wall .edited-by .subtle[href$="Bendrownedfan111"]:after,
 .Wall .edited-by .subtle[href$="Yangyong08"]:after,
 .Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after,
-.Wall .edited-by .subtle[href$="BadBlitz808"]:after{
+.Wall .edited-by .subtle[href$="BadBlitz808"]:after {
     color: Black !important;
     content: "rollbacker" !important;
     font-size: 15px;
@@ -91,7 +89,6 @@ a[href$="Branca10177"] {
 }
 
 a[href$="Davidjl123"],
-a[href$="DomiTheGamer"],
 a[href$="The_Nameless_Lancer"],
 a[href$="Bendrownedfan111"],
 a[href$="Yangyong08"],
@@ -112,60 +109,24 @@ a[href$="JustLeafy"]{
 .Wall .edited-by .subtle[href$="JustLeafy"]:after 
 .Wall .edited-by .subtle[href$="BoaDaSnakeMan"]:after,
 .Wall .edited-by .subtle[href$="FkeBld"]:after {
-    color: #7289DA !important
+    color: #7289DA !important;
     content: "discord admin" !important;
     font-size: 15px;
     font-variant: small-caps;
     font-weight: normal;
 }
 
-a[href$="Reverb_frost"],
-a[href$="Irregular_coca_cola"], 
-a[href$="BlindCartographer"] {
+a[href$="Reverb_frost"]{
     font-weight: bold !important;
     color: #693299 !important;
 }
 
-.Wall .edited-by .subtle[href$="Reverb_frost"]:after,
-.Wall .edited-by .subtle[href$="Irregular_coca_cola"]:after,
-.Wall .edited-by .subtle[href$="BlindCartographer"]:after {
+.Wall .edited-by .subtle[href$="Reverb_frost"]:after {
     color: #693299 !important;
     content: "discussions mod" !important;
     font-size: 15px;
     font-variant: small-caps;
     font-weight: normal;
-}
-
-
- .group-wrapper .mw-collapsed span {
-  float:unset
-}
- 
-.group-wrapper .mw-collapsed {
-  text-align:right;
-    
-}
-
-.WikiaRail .loading {
-    display: none;
-}
-
-.MiniEditorWrapper .loading-indicator {
-    display: none !important;
-}
-
-.EditPageEditor .loading-indicator .loading-message .loading-throbber,
-.EditPageEditor .loading-indicator .loading-message .loading-text {
-    padding: 20px;
-}
-
-.EditPageEditor .loading-indicator .loading-message {
-    color: red;
-}
-
-.WikiaArticleComments.loading {
-    background: url(/wiki/Special:Filepath?file=RedThrobber.gif) no-repeat 50% 50%;
-    border: 0;
 }
 
 #mpmodule {
@@ -205,26 +166,6 @@ a[href$="BlindCartographer"] {
     font-size: 90%;
 }
 
-.helpmodule img {
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-filter: grayscale(100%);
-    -moz-transition: 0.5s ease-in-out;
-    -o-filter: grayscale(100%);
-    -o-transition: 0.5s ease-in-out;
-    filter: grayscale(100%);
-}
-
-.helpmodule img:hover {
-    -webkit-filter: grayscale(0%);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-filter: grayscale(0%);
-    -moz-transition: 0.5s ease-in-out;
-    -o-filter: grayscale(0%);
-    -o-transition: 0.5s ease-in-out;
-    filter: grayscale(0%);
-}
-
 #tcenter {
     text-align: center;
 }
@@ -232,6 +173,13 @@ a[href$="BlindCartographer"] {
 #mainwiki {
     position: absolute;
     top: -65px;
+}
+
+.group-wrapper .mw-collapsed span {  
+	float: unset;
+}  
+.group-wrapper .mw-collapsed { 
+	text-align: right;  
 }
 
 a.wikia-button,
@@ -292,224 +240,6 @@ button {
     background: red !important;
     color: #ffffff !important;
 }
-
-.wikia-menu-button .WikiaMenuElement li > a {
-    background: #ff7f7f;
-    color: #000000;
-    padding: 2px 10px;
-}
-
-.wikia-menu-button.secondary {
-    border: 0;
-    color: #ffffff;
-    padding-right: 5px;
-}
-
-.wikia-menu-button.secondary .drop .chevron {
-    display: none;
-}
-
-.wikia-menu-button.secondary ul a[data-id="edit"] {
-    margin-right: 0 !important;
-}
-
-.wikia-menu-button.secondary > a {
-    color: #ffffff;
-}
-
-.wikia-menu-button.control-button .chevron {
-    border-color: #ffffff transparent transparent transparent !important;
-    display: inline !important;
-    margin: 5px 3px 0 3px;
-}
-
-.wikia-button.comments {
-    background: #ff7f7f !important;
-    border-radius: 0;
-    color: #000000 !important;
-}
-
-a.comments > .commentsbubble {
-    border: none;
-}
-
-a.comments > .commentsbubble:before {
-    border-color: transparent;
-}
-
-ul.tabbernav {
-    border-bottom: 0 solid !important;
-    font-size: 14px;
-    font-weight: normal !important;
-}
-
-ul.tabbernav li a {
-    padding: 10px !important;
-    margin-left: 0 !important;
-    color: white !important;
-    border: none !important;
-    background: none !important;
-}
-
-ul.tabbernav li a:link {
-    color: red !important;
-}
-
-ul.tabbernav li a:visited {
-    color: #FFE3EB !important;
-}
-
-ul.tabbernav li a:hover {
-    color: white !important;
-    background: red !important;
-    border: none !important;
-    font-weight: normal !important;
-}
-
-ul.tabbernav li.tabberactive a {
-    background-color: #cc181e !important;
-    border-bottom: none;
-    color: white !important;
-    font-weight: normal !important;
-}
-
-.tabberlive {
-    width: 100% !important;
-}
-
-.tabberlive .tabbertab {
-    border: none !important;
-    padding: 0px !important;
-}
-
-.tabs {
-    border: none;
-    font-weight: bold;
-    border-bottom: 2px solid red;
-    padding-bottom: 2px;
-}
-
-.tabs li a {
-    border: none;
-    border-radius: 0;
-    top: 0;
-}
-
-.tabs li a:hover {
-    text-decoration: none;
-    color: white !important;
-    background-color: red;
-}
-
-.tabs .selected a {
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #cc181e;
-    color: white !important;
-    border: none;
-}
-
-.tabs .selected a:hover {
-    background-color: #cc181e;
-}
-
-.WikiaRail .module {
-    border: 0;
-    border-bottom: 2px solid red;
-    background-color: transparent;
-}
-
-.HotSpotsModule li span {
-    padding-top: 18px !important;
-}
-
-#SPOTLIGHT_FOOTER {
-    background-image: none;
-}
-
-#HOME_TOP_RIGHT_BOXAD {
-margin-bottom: 20px !important;
-}
-
-.RelatedPagesModule .more:hover {
-    text-decoration: none !important;
-}
-
-.ab_thumbnails-c_abp-mode {
-    border-style: none !important;
-    border-top: 2px red solid !important;
-}
-
-.thumbnails-h-abp {
-    padding: 5px !important;
-}
-
-.ChatModule .chat-whos-here {
-    border: none;
-}
-
-.insights-module-item {
-    border-bottom: 0 !important;
-}
-
-.insights-module-item a .more {
-    padding-top: 5px;
-}
-
-.insights-module-list li a {
-    font-weight: bold;
-}
-
-.insights-module-list li a:hover {
-    text-decoration: none;
-}
-
-.UserProfileMasthead .masthead-avatar .avatar {
-    border: 5px solid red !important;
-}
-
-.UserProfileMasthead {
-    min-height: 190px;
-}
-
-.UserProfileMasthead > div.masthead-info > div.masthead-info-lower::before {
-    display: none;
-}
-
-.masthead-avatar img {
-    -moz-transition: all 0.6s ease;
-    -ms-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease;
-    -webkit-transition: all 0.6s ease;
-    transition: all 0.6s ease;
-}
-
-.masthead-avatar:hover img {
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    border-radius: 100%;
-    box-shadow: 0 0 20px black;
-    transform: rotate(360deg);
-}
-
-.masthead-avatar .sprite.edit-pencil {
-    display: none;
-}
-
-#userAvatarEdit {
-    margin-left: 45px;
-}
-
-.UserProfileMasthead .masthead-info hgroup {
-    border-radius: 0;
-}
-
-.UserProfileMasthead .masthead-info-lower::before {
-    border-style: none;
-}
-
 .avatar {
     border-radius: 12px;
     border: none;
@@ -636,27 +366,6 @@ hr {
     border: none;
 }
 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #ff0000;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.5, transparent), to(transparent));
-}
-
-.WikiaArticleComments .upper-pagination,
-.WikiaArticleComments .article-comments,
-.WikiaArticleComments {
-    border-top: 2px solid red !important;
-}
-
 .deleteorremove-infobox {
     border-top: 0;
 }
@@ -668,17 +377,6 @@ p.login {
 .WikiaBarWrapper .wikia-bar .wikiabar-button {
     background-color: transparent !important;
     border: none !important;
-}
-
-.article-categories {
-    border: none;
-    background-color: transparent;
-    background-image: none;
-}
-
-#youtubesearch {
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 #WikiaMainContent h1,
@@ -712,171 +410,6 @@ p.login {
 .accent {
     border-color: red;
 }
-
-.insights-landing-nav-item {
-    border-bottom: 1px solid #cc181e;
-}
-
-.insights-container-nav .insights-nav-item {
-    border-bottom: none;
-}
-
-.insights-nav-list li a {
-    color: black;
-}
-
-.insights-header-sorting {
-    border-top: none;
-}
-
-.insights-list-header {
-    border-bottom: none;
-    border-top: none;
-}
-
-.insights-list-header-pageviews {
-    border-left: none;
-}
-
-.insights-list-cell {
-    border-bottom: 1px solid #cc181e;
-}
-
-.insights-list-item .insights-list-item-pageviews {
-    border-left: transparent;
-}
-
-.insights-list-cell {
-    border-bottom: 1px solid #cc181e;
-}
-
-.editpage-intro > .editpage-intro-wrapper {
-    max-height: 135px;
-}
-
-/* Improving scaling for polls */
-.pollAnswerName {
-    padding: 10px 0 5px 0 !important;
-}
-.pollAnswerVotes {
-    margin-left: 0 !important;
-}
-
-/* New polls */
-.home-poll .question {
-    font-size: 25px;
-    background: #444;
-    color: #FFF;
-    padding: 10px;
-}
-
-.home-poll .question span {
-    display: block;
-    margin-top: 6px;
-    font-size: 12px;
-}
-
-.home-poll ul {
-    list-style: none;
-    padding: 0;
-    font-size: 13px;
-    margin: 0;
-}
-
-.home-poll ul li {
-    height: 20px;
-    width: 100%;
-    padding: 8px 0 30px 0;
-}
-
-.home-poll ul li div {
-    display: block;
-    background: #FFF;
-    height: 20px;
-    margin-top: 3px;
-    padding: 4px 0;
-}
-
-/* For Formatting purposes, this is separated. */
-.home-poll .ajax-poll {
-    border: 3px solid #cc181e;
-    width: calc(100%-6);
-    background: #ff7f7f;
-    color: black;
-}
-
-.home-poll .ajax-poll .header {
-    font-weight: 700;
-    background: #cc181e;
-    color: #FFF;
-    padding: 14px 13px;
-    font-size: 16px;
-    line-height: 140%
-}
-
-/* Additional Changes that only apply to home polls*/
-.home-poll .pollAnswerName label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.home-poll .pollAnswerName input[type="radio"] {
-    vertical-align: middle;
-    margin: -1px 5px 0;
-}
-
-.home-poll .pollAnswerVotes {
-    margin-left: 0!important;
-    width: auto !important;
-    border: none !important;
-    background: #ffb2b2;
-    padding: 10px;
-    height: 15px;
-}
-
-.home-poll .pollAnswerVotes span {
-    padding: 8px 5px
-}
-
-.home-poll .pollAnswerVotes div {
-    padding: 10px 0;
-    background: red;
-    margin-top: 0 !important;
-    font-size: 10px !important;
-    height: 15px;
-}
-
-.home-poll #ajax-poll-area div:not(.pollAnswer):not(.pollAnswerName):not(.pollAnswerVotes) {
-    font-size: 12px;
-    margin-top: -15px;
-    line-height: 170%
-}
-
-.home-poll .ajax-poll {
-    padding: 0!important;
-}
-
-.home-poll .ajax-poll .center {
-    height: 1px;
-    font-size: 11px
-}
-
-.home-poll .ajax-poll form {
-    padding: 0 10px
-}
-
-.home-poll .ajax-poll form input[type="submit"] {
-    width: 100%;
-    background: #cc181e;
-    border: none;
-    margin-top: 10px;
-    height: 33px !important;
-}
-
-.module .ajax-poll {
-    margin-top: 0;
-}
-
 .oo-ui-popupWidget-popup {
     width: auto !important;
 }
@@ -1115,64 +648,6 @@ a.tag {
 .nbActiveBottom {
   background: linear-gradient(to top, rgba(111,111,111,0.8), rgba(111,111,111,0.8),  transparent);
 }
-/* animated arrow in top nav, and fade to search suggestions */
-.wds-global-navigation .wds-dropdown::after, .wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown::before, .wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown::after, .page-header .page-header__contribution .page-header__contribution-buttons .wds-button-group .wds-dropdown::before, .page-header .page-header__contribution .page-header__contribution-buttons .wds-button-group .wds-dropdown::after, #PageHeader #EditMessageWallGreeting .wds-button-group .wds-dropdown::before, #PageHeader #EditMessageWallGreeting .wds-button-group .wds-dropdown::after, .wds-community-header__wiki-buttons .wds-dropdown::before, .wds-community-header__wiki-buttons .wds-dropdown::after {
- display: none !important;
-}
-.wds-global-navigation .wds-dropdown__content {
- -webkit-animation: dropdown-global 0.35s;
- -moz-animation: dropdown-global 0.35s;
- animation: dropdown-global 0.35s;
-}
-.wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown .wds-dropdown__content {
- -webkit-animation: dropdown-topnav 0.3s;
- -moz-animation: dropdown-topnav 0.3s;
- animation: dropdown-topnav 0.3s;
-}
-.wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown .wds-dropdown__content .wds-dropdown-level-2__content {
- -webkit-animation: dropdown-animation 0.3s;
- -moz-animation: dropdown-animation 0.3s;
- animation: dropdown-animation 0.3s;
-}
-.page-header .page-header__contribution .page-header__contribution-buttons .wds-button-group .wds-dropdown .wds-dropdown__content, #PageHeader #EditMessageWallGreeting .wds-button-group .wds-dropdown .wds-dropdown__content, .wds-community-header__wiki-buttons .wds-dropdown .wds-dropdown__content {
- -webkit-animation: contribution-dropdown 0.3s linear;
- -moz-animation: contribution-dropdown 0.3s linear;
- animation: contribution-dropdown 0.3s linear;
-}
-.wds-dropdown__content.wds-global-navigation__search-suggestions {
- -webkit-animation: searchsuggestions-dropdown 0.35s;
- -moz-animation: searchsuggestions-dropdown 0.35s;
- animation: searchsuggestions-dropdown 0.35s;
-}
-@keyframes dropdown-global {
- from {opacity: 0; top: 45px;}
- to {opacity: 1;}
-}
-@keyframes dropdown-topnav {
- from {opacity: 0; top: 30px;}
- to {opacity: 1; top: 40px;}
-}
-@keyframes dropdown-animation {
- from {opacity: 0; transform: translateX(-10px);}
- to {opacity: 1; transform: translateX(0);}
-}
-@keyframes contribution-dropdown {
- from {opacity: 0; top: 25px;}
- to {opacity: 1; top: 35px;}
-}
-@keyframes searchsuggestions-dropdown {
- from {top: 80%; opacity: 0;}
- to {top: calc(1px+100%); opacity: 1;}
-}
-.wds-dropdown-level-2:hover svg#wds-icons-menu-control-tiny {
- transform: rotate(-90deg) translateY(3px);
-}
-.wds-dropdown-level-2 svg#wds-icons-menu-control-tiny {
- -webkit-transition: transform 0.2s;
- -moz-transition: transform 0.2s;
- -o-transition: transform 0.2s;
- transition: transform 0.2s;
-}
 svg#wds-icons-dropdown-tiny {
  transition: transform 0.2s;
 }
@@ -1279,15 +754,3 @@ transform: translate3d(4px, 0, 0);
 .tally span {
     font-family: rubik;
 }
-/* Disable commenting on Purple Shep */
-.page-Purple_Shep #WikiaArticleComments .MiniEditorWrapper,.page-Purple_Shep button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
-.page-Purple_Shep #WikiaArticleComments .article-comm-info {display: initial !important}
-.page-Purple_Shep #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
-/* Disable commenting on Pink Sheep */
-.page-PinkSheep #WikiaArticleComments .MiniEditorWrapper,.page-PinkSheep button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
-.page-PinkSheep #WikiaArticleComments .article-comm-info {display: initial !important}
-.page-PinkSheep #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
-/* Disable commenting on Failboat */
-.page-Failboat #WikiaArticleComments .MiniEditorWrapper,.page-Failboat button.article-comm-reply.wikia-button.secondary.actionButton{display: none !important}
-.page-Failboat #WikiaArticleComments .article-comm-info {display: initial !important}
-.page-Failboat #WikiaArticleComments .article-comm-info:after {content: "Adding comments on this article is currently disabled. If you wish to have changes made to the article, please contact an admin or moderator." !important;}
