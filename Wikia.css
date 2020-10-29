@@ -338,6 +338,36 @@ hr {
     border: 1px red dotted;
 }
 
+.pi-europa .pi-header, .pi-europa .pi-title {
+	background-color: #FF0000B3;
+    color: #FFFFFF;
+}
+
+.pi-europa .pi-title {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pi-europa.pi-background {
+    background-color: #ff7f7fb3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pi-europa .pi-navigation {
+    background-color: #ff0000b3;
+    color: inherit;
+    font-weight: inherit;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pi-europa .pi-navigation a {
+    color: white;
+}
+
 .banner-notification.confirm {
     background: #ff7f7f;
     border: red;
