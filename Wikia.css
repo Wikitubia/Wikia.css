@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url('/load.php?debug=false&lang=en&mode=articles&articles=MediaWiki:Themes.css&only=styles');
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:ContribsButtons.css&only=styles";
 @import url("/load.php?mode=articles&only=styles&articles=u:justleafy:MediaWiki:WDSSpinners/code.css");
 @import "/load.php?mode=articles&articles=u:dev:MediaWiki:Button.css&only=styles";
 @import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedActivityFeed.css&only=styles";
@@ -166,6 +165,10 @@ a[href$="Reverb_frost"]{
     font-size: 90%;
 }
 
+.mw-parser-output .mw-references-wrap {
+    clear: none;
+}
+
 #tcenter {
     text-align: center;
 }
@@ -173,6 +176,11 @@ a[href$="Reverb_frost"]{
 #mainwiki {
     position: absolute;
     top: -65px;
+}
+
+/* make strawpolls long */
+.strawpoll {
+    height: 600px;
 }
 
 .group-wrapper .mw-collapsed span {  
@@ -205,51 +213,86 @@ button {
     font-family: inherit;
 }
 
-.wikia-menu-button > a {
+.wikia-menu-button.control-button .chevron {
+    border-color: #ffffff transparent transparent transparent !important;
+    display: inline !important;
+    margin: 5px 3px 0 3px;
+}
+
+ul.tabbernav {
+    border-bottom: 0 solid !important;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+
+ul.tabbernav li a {
+    padding: 10px !important;
+    margin-left: 0 !important;
+    color: white !important;
+    border: none !important;
+    background: none !important;
+}
+
+ul.tabbernav li a:link {
+    color: red !important;
+}
+
+ul.tabbernav li a:visited {
+    color: #FFE3EB !important;
+}
+
+ul.tabbernav li a:hover {
+    color: white !important;
+    background: red !important;
+    border: none !important;
+    font-weight: normal !important;
+}
+
+ul.tabbernav li.tabberactive a {
+    background-color: #cc181e !important;
+    border-bottom: none;
+    color: white !important;
+    font-weight: normal !important;
+}
+
+.tabberlive {
+    width: 100% !important;
+}
+
+.tabberlive .tabbertab {
+    border: none !important;
+    padding: 0px !important;
+}
+
+.tabs {
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 2px;
+}
+
+.tabs li a {
+    border: none;
     border-radius: 0;
-    border-right: 0 !important;
+    top: 0;
 }
 
-.wikia-menu-button > a:hover {
-    background: red !important;
+.tabs li a:hover {
+    text-decoration: none;
+    color: white !important;
+    background-color: red;
 }
 
-.wikia-menu-button > a:active {
-    background: red !important;
-}
-
-.wikia-menu-button .drop {
-    border-radius: 0;
-}
-
-.wikia-menu-button .drop:hover {
-    background: red !important;
-}
-
-.wikia-menu-button .WikiaMenuElement {
-    border-left: 2px solid red !important;
-    border: 0 !important;
-    box-shadow: 0 0 !important;
-}
-
-.wikia-menu-button .WikiaMenuElement li {
-    border: 0 !important;
-}
-
-.wikia-menu-button .WikiaMenuElement li a:hover {
-    background: red !important;
-    color: #ffffff !important;
-}
-.avatar {
-    border-radius: 12px;
+.tabs .selected a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #cc181e;
+    color: white !important;
     border: none;
 }
 
-.UserProfileMasthead > div.masthead-info {
-    background-color: #d8ddea;
-    background-color: rgba(216, 221, 234, 0.2);
-    border-radius: 15px;
-    margin: 15px 0 15px 165px;
+.tabs .selected a:hover {
+    background-color: #cc181e;
 }
 
 .WikiaArticle .editsection {
@@ -348,6 +391,11 @@ hr {
     border-top-left-radius: 10px;
 }
 
+.pi-image {
+	text-align: center;
+    background-color: #FF0000B3;
+}
+
 .pi-europa.pi-background {
     background-color: #ff7f7fb3;
     border-top-right-radius: 10px;
@@ -360,12 +408,33 @@ hr {
     background-color: #ff0000b3;
     color: inherit;
     font-weight: inherit;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    text-align: center;
 }
 
 .pi-europa .pi-navigation a {
     color: white;
+}
+
+.pi-europa .pi-image-collection-tabs {
+    background-color: #EF9391;
+    text-align: center;
+}
+
+.pi-europa .pi-image-collection-tabs .current {
+    background-color: #ffb4b3b3;
+    border: #ff0000 1px dashed;
+}
+
+.page-header__eraicons {
+    float: right;
+}
+
+.eraicon.wds-dropdown {
+    margin-inline-start: 3px;
+}
+
+span.eraicon-dropdown {
+    margin-right: 200px;
 }
 
 .banner-notification.confirm {
