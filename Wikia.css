@@ -8,15 +8,15 @@
 
 
 a[href$="Purzyckij"],
-a[href$="Zianka"],
-a[href$="ThisIsACreeper0101"] {
+a[href$="ThisIsACreeper0101"],
+a[href$="ITurkishmapping"] {
     font-weight: bold !important;
     color: #00E000 !important;
 }
 
 .Wall .edited-by .subtle[href$="Purzyckij"]:after,
-.Wall .edited-by .subtle[href$="Zianka"]:after,
-.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after {
+.Wall .edited-by .subtle[href$="ThisIsACreeper0101"]:after
+.Wall .edited-by .subtle[href$="ITurkishmapping"]:after {
     color: #00E000 !important;
     content: "bureaucrat" !important;
     font-size: 15px;
@@ -25,19 +25,21 @@ a[href$="ThisIsACreeper0101"] {
 }
 
 a[href$="JakCooperThePlumber"],
+a[href$="Zianka"],
 a[href$="NameOfUser57"],
 a[href$="EdwardBloxy"],
-a[href$="ITurkishmapping"],
-a[href$="Sidemen19"] {
+a[href$="Sidemen19"],
+a[href$="Cluckster"] {
     font-weight: bold !important;
     color: #B80000 !important;
 }
 
 .Wall .edited-by .subtle[href$="JakCooperThePlumber"]:after,
+.Wall .edited-by .subtle[href$="Zianka"]:after,
 .Wall .edited-by .subtle[href$="NameOfUser57"]:after,
 .Wall .edited-by .subtle[href$="EdwardBloxy"]:after,
-.Wall .edited-by .subtle[href$="ITurkishmapping"]:after,
-.Wall .edited-by .subtle[href$="Sidemen19"]:after{
+.Wall .edited-by .subtle[href$="Sidemen19"]:after,
+.Wall .edited-by .subtle[href$="Cluckster"]:after {
     color: #B80000 !important;
     content: "admin" !important;
     font-size: 15px;
@@ -47,25 +49,23 @@ a[href$="Sidemen19"] {
 
 a[href$="D2Kvirus"],
 a[href$="Reverb_frost"],
-a[href$="CactorTheGasopod"],
 a[href$="Johncocek3"],
-a[href$="Cluckster"],
 a[href$="Grassblaze"],
 a[href$="Nintendofan885"],
 a[href$="Branca10177"],
-a[href$="BlindCartographer"] {
+a[href$="BlindCartographer"],
+a[href$="BadBlitz808"] {
     color: #323299 !important;
     font-weight: bold !important;
 }
 
 .Wall .edited-by .subtle[href$="D2Kvirus"]:after,
-.Wall .edited-by .subtle[href$="CactorTheGasopod"]:after,
 .Wall .edited-by .subtle[href$="Johncocek3"]:after,
-.Wall .edited-by .subtle[href$="Cluckster"]:after,
 .Wall .edited-by .subtle[href$="Grassblaze"]:after,
 .Wall .edited-by .subtle[href$="Nintendofan885"]:after,
 .Wall .edited-by .subtle[href$="Branca10177"]:after,
-.Wall .edited-by .subtle[href$="BlindCartographer"]:after {
+.Wall .edited-by .subtle[href$="BlindCartographer"]:after,
+.Wall .edited-by .subtle[href$="BadBlitz808"]:after {
     color: #323299 !important;
     content: "content moderator" !important;
     font-size: 15px;
@@ -78,8 +78,7 @@ a[href$="BlindCartographer"] {
 .Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after, 
 .Wall .edited-by .subtle[href$="Bendrownedfan111"]:after,
 .Wall .edited-by .subtle[href$="Yangyong08"]:after,
-.Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after,
-.Wall .edited-by .subtle[href$="BadBlitz808"]:after {
+.Wall .edited-by .subtle[href$="Tylerota2"]:after {
     color: Black !important;
     content: "rollbacker" !important;
     font-size: 15px;
@@ -88,13 +87,12 @@ a[href$="BlindCartographer"] {
 }
 
 a[href$="Davidjl123"],
+a[href$="The%20Nameless%20Lancer"],
 a[href$="The_Nameless_Lancer"],
 a[href$="Bendrownedfan111"],
 a[href$="Yangyong08"],
-a[href$="Toasty_Dinosaur"],
-a[href$="BadBlitz808"]{
+a[href$="Tylerota2"] {
     font-weight: bold !important;
-    
 }
 
 a[href$="FkeBld"],
@@ -115,12 +113,16 @@ a[href$="JustLeafy"]{
     font-weight: normal;
 }
 
-a[href$="Reverb_frost"]{
+a[href$="Reverb%20frost"],
+a[href$="Reverb_frost"],
+a[href$="Toasty%20Dinosaur"],
+a[href$="Toasty_Dinosaur"] {
     font-weight: bold !important;
     color: #693299 !important;
 }
 
-.Wall .edited-by .subtle[href$="Reverb_frost"]:after {
+.Wall .edited-by .subtle[href$="Reverb_frost"]:after,
+.Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after {
     color: #693299 !important;
     content: "discussions mod" !important;
     font-size: 15px;
