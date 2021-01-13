@@ -48,11 +48,9 @@ a[href$="Cluckster"] {
 }
 
 a[href$="D2Kvirus"],
-a[href$="Reverb_frost"],
 a[href$="Johncocek3"],
 a[href$="Grassblaze"],
 a[href$="Nintendofan885"],
-a[href$="Branca10177"],
 a[href$="BlindCartographer"],
 a[href$="BadBlitz808"] {
     color: #323299 !important;
@@ -63,7 +61,6 @@ a[href$="BadBlitz808"] {
 .Wall .edited-by .subtle[href$="Johncocek3"]:after,
 .Wall .edited-by .subtle[href$="Grassblaze"]:after,
 .Wall .edited-by .subtle[href$="Nintendofan885"]:after,
-.Wall .edited-by .subtle[href$="Branca10177"]:after,
 .Wall .edited-by .subtle[href$="BlindCartographer"]:after,
 .Wall .edited-by .subtle[href$="BadBlitz808"]:after {
     color: #323299 !important;
@@ -76,9 +73,9 @@ a[href$="BadBlitz808"] {
 
 .Wall .edited-by .subtle[href$="Davidjl123"]:after,
 .Wall .edited-by .subtle[href$="The_Nameless_Lancer"]:after, 
-.Wall .edited-by .subtle[href$="Bendrownedfan111"]:after,
+.Wall .edited-by .subtle[href$="SuperStario89"]:after,
 .Wall .edited-by .subtle[href$="Yangyong08"]:after,
-.Wall .edited-by .subtle[href$="Tylerota2"]:after {
+.Wall .edited-by .subtle[href$="JustLeafy"]:after {
     color: Black !important;
     content: "rollbacker" !important;
     font-size: 15px;
@@ -89,21 +86,18 @@ a[href$="BadBlitz808"] {
 a[href$="Davidjl123"],
 a[href$="The%20Nameless%20Lancer"],
 a[href$="The_Nameless_Lancer"],
-a[href$="Bendrownedfan111"],
+a[href$="SuperStario89"],
 a[href$="Yangyong08"],
-a[href$="Tylerota2"] {
+a[href$="JustLeafy"] {
     font-weight: bold !important;
 }
 
 a[href$="FkeBld"],
-a[href$="BoaDaSnakeMan"],
-a[href$="JustLeafy"]{
+a[href$="BoaDaSnakeMan"] {
     font-weight: bold !important;
     color: #7289DA !important;
-    
 }
 
-.Wall .edited-by .subtle[href$="JustLeafy"]:after 
 .Wall .edited-by .subtle[href$="BoaDaSnakeMan"]:after,
 .Wall .edited-by .subtle[href$="FkeBld"]:after {
     color: #7289DA !important;
@@ -113,16 +107,15 @@ a[href$="JustLeafy"]{
     font-weight: normal;
 }
 
-a[href$="Reverb%20frost"],
-a[href$="Reverb_frost"],
 a[href$="Toasty%20Dinosaur"],
-a[href$="Toasty_Dinosaur"] {
+a[href$="Toasty_Dinosaur"],
+a[href$="Nisk00n"] {
     font-weight: bold !important;
     color: #693299 !important;
 }
 
-.Wall .edited-by .subtle[href$="Reverb_frost"]:after,
-.Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after {
+.Wall .edited-by .subtle[href$="Toasty_Dinosaur"]:after,
+.Wall .edited-by .subtle[href$="Nisk00n"]:after {
     color: #693299 !important;
     content: "discussions mod" !important;
     font-size: 15px;
@@ -431,12 +424,23 @@ hr {
     float: right;
 }
 
+div#icons {
+	margin-top: -21px;
+}
+
 .eraicon.wds-dropdown {
     margin-inline-start: 3px;
 }
 
 span.eraicon-dropdown {
-    margin-right: 200px;
+    vertical-align: top;
+    background: #d6cec8;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 auto;
+    color: #3a3a3a;
+    min-width: 200px;
+    text-align: center;
 }
 
 .banner-notification.confirm {
